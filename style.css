@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+
+    font-family: 'montserrat', sans-serif;
+}
+
+header {
+    opacity: 0.8;
+    width: 100%;
+    height: 570px;
+    background: url(./orange-market_02.png) no-repeat center bottom;
+}
+
+
+header .header_top {
+    width: 100%;
+    padding: 7px 0;
+    background-color: #f8f8f8;
+}
+
+header .header_top nav {
+    width: 1111px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header_top nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .header_top nav .logo img {
+    margin-right: 20px;
+}
+
+header .header_top nav .logo span {
+    color: #dd4400;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+header .header_top nav ul {
+    /* margin-left: 22px; */
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+header .header_top nav ul li {
+    margin-left: 22px;
+}
+
+header .header_top nav ul li a {
+    color: #4e4e4e;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+header .header_top nav ul li a:hover {
+    color: #dd4400;
+}
+
+section {
+    width: 100%;
+    padding: 50px 0 100px;
+}
+
+section .submit_btn {
+    background-color: #dd4400;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    padding: 15px 50px 15px 50px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+section .box_items {
+    width: 100%;
+}
+
+section .box_items .container {
+    width: 1111px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+section .box_items .container .box {
+    margin: 0 15px;
+    padding: 50px 20px 25px 20px;
+    text-align: center;
+    box-shadow: 0px 0px 0px 9px #ebded7;
+}
+
+section .box_items .container .box h4 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #dd4400;
+}
+
+section .box_items .container .box h4::after {
+    content: "";
+    display: block;
+    width: 140px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 1px;
+    background-color: #dd4400;
+    margin: 50px auto 30px auto;
+}
+
+.section {
+    width: 100%;
+    padding: 50px 0 100px;
+}
+
+
+
+
+
+
+section .right h3 {
+    margin: 80px 195px;
+}
+
+section .right p {
+    width: 710px;
+    margin-left: 195px;
+}
+
+section .right .submit_btn {
+    margin-top: 55px;
+    transition: 400ms;
+}
+
+section .section_right_box h3 {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+section .hello .section_right_box.boxtext {
+    /* display: flex; */
+    align-items: center;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 60px;
+    margin: auto;
+    background-color: #dd4400;
+    padding: 50px 0;
+    margin-top: 100%;
+
+}
+
+footer .number {
+    width: 500px;
+    margin: auto;
+    color: #ebded7;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h4 {
+
+    margin-bottom: 10px;
+    margin-top: 40px;
+
+}
+
+footer h2 {
+    margin-top: 50px;
+    margin: 10px;
+    display: flex;
+}
